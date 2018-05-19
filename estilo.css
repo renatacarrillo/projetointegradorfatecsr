@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+html{background-color:lightgray;}
+
+/*IMAGEM E LOGOTIPO HEADER*/
+
+.headerr{
+    background: url(../imagens/header.png);
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+    background-position: center;
+    margin: inherit;
+    background-color: #f6f6f6;
+        
+}
+
+.logotipo1{
+    position: relative;
+    left: 50px;
+    top: 30px;   
+}
+
+.logotipo{
+    position: relative;
+    left: 50px;
+    top: 30px;   
+}
+
+
+/*ICONES HEADER*/
+
+.iconeheader{
+    float:right;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 0px;    
+}
+
+
+/*BODY*/
+
+body{
+    background-color:white;
+    font-size-adjust:100%;
+    
+}
+
+
+article, aside, footer{
+    margin:20px;
+    background-color:#f6f6f6;
+}
+
+nav {
+
+    font-family:'Black Han Sans', sans-serif;
+    border-left-style: groove;
+    border-top-style:groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-top-color: blue;
+    padding-left: 13px;
+    font-size: 25px;
+}
+
+
+p{
+	font-family: 'Crimson Text', serif;
+    font-size: 22px;
+	text-align: justify;
+	padding:10px;
+}
+
+
+ul li{
+    display:inline;
+}
+
+ul li a{
+    /* topo, direita, base, esquerda */
+    padding: 0px 20px 0px 20px;
+	color: darkblue;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.1em;
+    font-style: normal;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+
+
+ul li a:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+
+/*CLASSES*/
+
+.central{
+    font-size: 65px;
+    color: blue;
+    background: #03fa0c;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-family: 'Bangers', cursive;
+    padding: 50px;
+    
+}
+
+.programacao {
+    font-size: 50px;
+    background: blue;
+    font-weight:normal;
+    text-transform:uppercase;
+    margin-left: 200px;
+    margin-right: 520px;
+    color: #03fa0c;
+    font-family: 'Bangers', cursive;
+    margin-top: 100px;
+}
+
+
+/*TABELA*/
+
+table, tr, td, th {
+    padding: 25px;
+    border: 5px solid #1d00ff;
+}
+
+tbody {background-color: #ffffff;}
+thead {background-color: #05f433;}
+
+.tr{
+    font-family: 'Bangers', cursive;
+}
+
+.titulos{font-family: sans-serif, arial;}
+
+
+.todocomentario{
+    margin-top: 100px;
+}
+
+.comentarios{
+    font-size: 40px;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-align: center;
+    color: blue;
+    font-family: 'Bangers', cursive;
+    margin-top: 90px;
+    background: #03fa0c
+    
+}
+
+.comalunos1{
+    float: left;
+    width: 220px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #03fa0c;
+    text-align:center;
+    font-size: 20px;
+    
+}
+
+.comalunos2{
+    float: left;
+    width: 220px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: blue;
+    text-align:center;
+    font-size: 20px;
+    
+}
+.todoaviso{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #03fa0c;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    
+}
+.avisos{
+    color: blue;
+    font-family: 'Bangers', cursive; 
+    text-align: center;
+    font-size: 40px;
+    background: #03fa0c;
+    margin-left: 620px;
+    margin-right: 20px;
+    
+}
+
+.mural{
+    color: blue;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 580px;
+    margin-left: 615px;
+    margin-right: 20px;
+    background: #03fa0c;
+        
+}
+
+.todomural{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: blue;
+    
+}
+
+.imagens{
+    width: 140px;
+    height: 140px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.fotos{
+    width: 140px;
+    height: 140px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    
+}
+
+
+/*POSICIONAMENTO*/
+
+body {
+    width: 980px;
+    margin: 0px auto 0px auto;
+}
+
+article {
+    width: 570px;
+    margin-top: 0;
+    float: left;
+}
+aside {
+    width: 330px;
+    margin-top: 0;
+    float: left;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    clear: both;
+    margin: inherit;
+    background-color: #f6f6f6;
+}
+
+.floatleft{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+}
+
+.iconefooter{
+    float: right;
+    margin-right: 10px;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+
+/* PAGINA A ESCOLA */
+
+.sobre{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    font-family: 'Bangers', cursive;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background: #03fa0c;
+}
+
+.texto1{
+    text-align: center;
+    width: 950px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1px;
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+}
+
+.texto2{
+    text-align: center;
+    width: 950px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1px;
+    background:#03fa0c;
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+}
+
+.texto3{
+    text-align: center;
+    width: 950px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1px;
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+}
+
+.comentario1{
+    float: left;
+    width: 270px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #03fa0c;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 23px;
+    
+}
+
+.comentario2{
+    float: left;
+    width: 270px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    
+}
+
+.comentario3{
+    float: left;
+    width: 270px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #03fa0c;
+    text-align:center;
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+}
+
+.professores{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    font-family: 'Bangers', cursive;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background: #03fa0c;
+    
+}
+
+
+/* PAGINA CONTATO */
+
+.formulario{
+    text-align: center;
+    color: blue;
+    font-family: 'Bangers', cursive;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: #03fa0c;
+    font-size: 25px;
+    padding: 1px;
+    
+}
+
+.dados{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    
+    
+}
+
+.nome{
+    text-align: right;
+    margin-right: 500px;
+    padding: 0px;
+    
+}
+
+.e-mail{
+    text-align: right;
+    margin-right: 500px;
+    padding: 0px;
+    
+}
+
+.tel{
+    text-align: right;
+    padding: 0px;
+    margin-right: 500px;
+}
+
+.mensagem{
+    text-align: right;
+    padding: 20px;
+    clear: both;
+    margin-right: 70px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.enviar{
+    margin-bottom: 90px;
+    text-align: right;
+    padding: 20px;
+    clear: both;
+    margin-right: 500px;
+    text-align: center;
+    margin-right: 80px;
+    
+}
+
+.telefone{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+
+.email{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.unidade{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    margin-left: 20px;
+    font-style: oblique;   
+}
+
+.aa{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    color: blue;
+    font-style: oblique;
+    background: #03fa0c;
+    
+}
+
+
+/*PÁGINA CURSOS*/
+
+
+
+
+
